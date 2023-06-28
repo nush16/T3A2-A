@@ -3,8 +3,14 @@
 ### Application Name
 GP Online Doctor Appointment App
 
+### Team: Anushke and Bangkai
+
+
 ## Description
-The objective of this project is to create an all-encompassing online doctor appointment application aimed at optimizing the procedure of scheduling and overseeing medical appointments. This application will serve both patients, doctors and administrative staff, equipping them with a wide array of tools and functionalities designed to boost efficiency and enhance user experience.
+The objective of this project is to create an all-encompassing online doctor appointment application for a newly opened general practitioner Center in regional NSW.
+
+
+ aimed at optimizing the procedure of scheduling and overseeing medical appointments. This application will serve both patients, doctors and administrative staff, equipping them with a wide array of tools and functionalities designed to boost efficiency and enhance user experience.
 
 ## Functionality / Features
 
@@ -37,6 +43,13 @@ The objective of this project is to create an all-encompassing online doctor app
 
 - Administrators can oversee all appointments, assist in scheduling, and handle cancellations or rescheduling.
 
-- A comprehensive dashboard will be available to give an overview of all operations for Administrators  including appointments, cancellations, patient and doctor data.
+- A  dashboard will be available to give an overview of all operations for Administrators  including appointments, cancellations, patient and doctor data.
 
 - Administrators will receive notifications about important activities in the system, such as new appointments, cancellations, rescheduling, etc.
+
+## Nice to haves:
+
+We're also considering that beyond developing the online appointment appli for a specific GP centre, we could expand it into a location-based GP clinic search application including extra functionalities such as geolocation services, customized search filters and appointment booking with multiple clinics.
+
+
+- 
