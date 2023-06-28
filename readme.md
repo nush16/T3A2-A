@@ -1,14 +1,14 @@
 # T3A2-A • Full Stack App (Part A)
 
 ### Application Name
-Jacaranda GP Online Doctor Appointment App
+GP Online Doctor Appointment App
 
 ## Description
- this project is to develop a comprehensive online doctor appointment application for my friend's newly opend GP cneter Peppertree GP, designed to streamline the process of scheduling and managing medical appointments. The application will cater to both patients and administrative staff, providing them with a range of tools and functionalities that will enhance efficiency and improve user experience.
+The objective of this project is to create an all-encompassing online doctor appointment application aimed at optimizing the procedure of scheduling and overseeing medical appointments. This application will serve both patients, doctors and administrative staff, equipping them with a wide array of tools and functionalities designed to boost efficiency and enhance user experience.
 
 ## Functionality / Features
 
-Patient User:
+### Patient User:
 
 - Patient will be able to register, create a profile, and manage their accounts. 
 
@@ -16,23 +16,22 @@ Patient User:
 
 - Patients will be able to book, reschedule or cancel appointments 
 
-
 - Patients can access their past medical history and any prescribed medications.
 
 - Patients will receive automatic notifications and reminders about upcoming appointments
 
 
-Doctor User:
+### Doctor User:
 
 - Doctors can create and update their professional profiles
 
 -  Doctors can view their schedule, see upcoming appointments, and be notified of any changes made by patients.
 
-- Doctors will have secure access to a patient's medical records with permissions
+- Doctors will have secure access to a patient's medical records (with permission )
 
 - Doctors will receive notifications for appointment bookings, cancellations, or rescheduling.
 
-Administrative Staff:
+### Administrative Staff:
 
 - Administrators can manage both patient and doctor profiles, including creation, deletion, or modifications.
 
