@@ -6,7 +6,7 @@ GP Online Doctor Appointment App
 ### Team: Anushke and Bangkai
 
 
-## Description
+ ## Description
 The objective of this project is to create an all-encompassing online doctor appointment application for a newly opened general practitioner Center in regional NSW.
 
 
@@ -49,7 +49,7 @@ The objective of this project is to create an all-encompassing online doctor app
 
 ## Nice to haves:
 
-We're also considering that beyond developing the online appointment appli for a specific GP centre, we could expand it into a location-based GP clinic search application including extra functionalities such as geolocation services, customized search filters and appointment booking with multiple clinics.
+We're also considering that beyond developing the online appointment app for a specific GP centre, we could expand it into a location-based GP clinic search application including extra functionalities such as geolocation services, customized search filters and appointment booking with multiple clinics.
 
 
 - 
