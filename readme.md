@@ -14,17 +14,7 @@ The objective of this project is to create an all-encompassing online doctor app
 
 ## Functionality / Features
 
-### Patient User:
 
-- Patient will be able to register, create a profile, and manage their accounts. 
-
-- Patients can view profiles of different doctors, which include details about their qualifications, specialties, and availability.
-
-- Patients will be able to book, reschedule or cancel appointments 
-
-- Patients can access their past medical history and any prescribed medications.
-
-- Patients will receive automatic notifications and reminders about upcoming appointments
 
 
 ### Doctor User:
@@ -45,8 +35,20 @@ The objective of this project is to create an all-encompassing online doctor app
 
 - A  dashboard will be available to give an overview of all operations for Administrators  including appointments, cancellations, patient and doctor data.
 
-- Administrators will receive notifications about important activities in the system, such as new appointments, cancellations, rescheduling, etc.
+- Administrators will receive notifications about important activities in the system, such as new appointments, cancellations, rescheduling, etc
 
+
+### Patient User:
+
+- Patient will be able to register, create a profile, and manage their accounts. 
+
+- Patients can view profiles of different doctors, which include details about their qualifications, specialties, and availability.
+
+- Patients will be able to book, reschedule or cancel appointments 
+
+- Patients can access their past medical history and any prescribed medications.
+
+- Patients will receive automatic notifications and reminders about upcoming appointments
 ## Nice to haves:
 
 We're also considering that beyond developing the online appointment app for a specific GP centre, we could expand it into a location-based GP clinic search application including extra functionalities such as geolocation services, customized search filters and appointment booking with multiple clinics.
