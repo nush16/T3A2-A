@@ -1,31 +1,28 @@
 # T3A2-A • GP Online Doctor Appointment App
 
----
 
-### Team: Anushke and Bangkai
 
----
+### Anushke Karunaratna and Bangkai Yu
+
+
 
 ## Description
-The objective of this project is to create an all-encompassing online doctor appointment application for a newly opened general practitioner Center in regional NSW.The app is aimed at optimizing the procedure of scheduling and overseeing medical appointments. This application will serve both doctors and administrative staff, equipping them with a wide array of tools and functionalities designed to boost efficiency and enhance user experience.
 
----
+The objective of this project is to create an online doctor appointment application for a general practitioner center in regional NSW. The app will cater to the needs of both doctors and administrative staff, boosting efficiency and enhancing the user experience. Doctors can manage schedules, access patient information, and improve patient care. Administrative staff can efficiently manage appointments and clinic operations. The application will prioritize data security and privacy. By creating this comprehensive app, the clinic aims to bring convenience, efficiency, and satisfaction to healthcare providers and patients, embracing technology for optimized healthcare delivery.
 
 ## Purpose
 
----
+ The current application the GP clinic uses is quite outdated, so the goal of is to revolutionise appointment management and improve the overall healthcare experience. The application also seeks to streamline the scheduling and oversight of medical visits for both doctors and patients by leveraging technology and providing a user-friendly platform. The goal is to increase efficiency, lower administrative costs, and optimise clinic operations. This application will allow doctors to properly organise their schedules, retrieve patient information, and provide personalised care. Finally, the goal of this software is to provide a seamless, efficient, and patient-centered healthcare experience, revolutionising how appointments are scheduled and handled in the digital era.
 
 ## Functionality / Features
 
 ### Doctor User:
 
-- Doctors can create and update their professional profiles
+- The application will allow doctors to create and maintain their professional profiles. They can input their relevant information, including qualifications, areas of expertise, and contact details. 
 
--  Doctors can view their schedule, see upcoming appointments, and be notified of any changes made by patients.
+-  Doctors can view their schedule, see upcoming appointments, and be notified of any changes made by patients: The application will provide doctors with a clear and organized view of their schedule, allowing them to easily access information about their upcoming appointments. They will be notified in real-time of any changes made by patients, such as appointment bookings, cancellations, or rescheduling. This functionality ensures that doctors stay informed and can manage their time effectively, reducing the chances of any scheduling conflicts or missed appointments
 
-- Doctors will have secure access to a patient's medical records (with permission )
-
-- Doctors will receive notifications for appointment bookings, cancellations, or rescheduling.
+- Doctors will have secure access to a patient's medical records. This feature allows doctors to review relevant medical history, test results, diagnoses, and treatment plans, providing them with valuable insights into the patient's healthcare journey. Access to comprehensive and up-to-date medical records enhances the accuracy of diagnoses and treatment decisions, ultimately improving patient care and outcomes.
 
 ### Administrative Staff:
 
@@ -37,7 +34,6 @@ The objective of this project is to create an all-encompassing online doctor app
 
 - Administrators will receive notifications about important activities in the system, such as new appointments, cancellations, rescheduling, etc
 
----
 
 ## Target Audience
 
@@ -80,23 +76,23 @@ As a clinical administrator, it is essential for me to have a real-time overview
 
 
 
----
+
 
 ## Tech Stack / Application Achitecture Diagram
 
----
+
 
 ## Wireframes
 
----
+
 
 ## Dataflow Diagram
 
----
+
 
 ## Dataflow Diagram
 
----
+
 
 ## Project Management
 
