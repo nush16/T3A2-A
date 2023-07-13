@@ -20,19 +20,17 @@ The objective of this project is to create an online doctor appointment applicat
 
 - The application will allow doctors to create and maintain their professional profiles. They can input their relevant information, including qualifications, areas of expertise, and contact details. 
 
--  Doctors can view their schedule, see upcoming appointments, and be notified of any changes made by patients: The application will provide doctors with a clear and organized view of their schedule, allowing them to easily access information about their upcoming appointments. They will be notified in real-time of any changes made by patients, such as appointment bookings, cancellations, or rescheduling. This functionality ensures that doctors stay informed and can manage their time effectively, reducing the chances of any scheduling conflicts or missed appointments
+-  Doctors can view their schedule, see upcoming appointments, and be notified of any changes made by patients: The application will provide doctors with a clear and organized view of their schedule, allowing them to easily access information about their upcoming appointments. They will be notified in real-time of any changes made by patients, such as appointment bookings, cancellations, or rescheduling. This functionality ensures that doctors are informed and can properly manage their time, lowering the likelihood of scheduling conflicts or missed appointments.
 
-- Doctors will have secure access to a patient's medical records. This feature allows doctors to review relevant medical history, test results, diagnoses, and treatment plans, providing them with valuable insights into the patient's healthcare journey. Access to comprehensive and up-to-date medical records enhances the accuracy of diagnoses and treatment decisions, ultimately improving patient care and outcomes.
+- Doctors will have secure access to a patient's medical records. This feature allows doctors to review relevant medical history, diagnoses, and treatment plans, providing them with valuable insights into the patient's healthcare journey. Access to comprehensive and up-to-date medical records enhances the accuracy of diagnoses and treatment decisions, ultimately improving patient care and outcomes.
 
 ### Administrative Staff:
 
-- Administrators can manage both patient and doctor profiles, including creation, deletion, or modifications.
+- Administrators can doctor profiles, including creation, deletion, or modifications. They can create new profiles, update existing ones, and handle any necessary modifications. This feature ensures that the system's user data remains accurate, up-to-date, and aligned with the clinic's requirements.
 
-- Administrators can oversee all appointments, assist in scheduling, and handle cancellations or rescheduling.
+- Administrators may manage all appointments, assist with scheduling, and handle cancellations or rescheduling: The programme allows administrators to manage all appointments within the system. They can see the whole appointment schedule, help with new appointment scheduling, and handle any cancellations or rescheduling requests from patients or doctors. This feature simplifies the appointment management process, allowing administrators to optimise resource allocation and maintain a smooth flow of patients through the clinic.
 
-- A  dashboard will be available to give an overview of all operations for Administrators  including appointments, cancellations, patient and doctor data.
-
-- Administrators will receive notifications about important activities in the system, such as new appointments, cancellations, rescheduling, etc
+- Administrators will receive notifications about new appointment bookings, cancellations, rescheduling requests, and other important events. By getting these notifications, administrators may keep informed and take appropriate action, guaranteeing efficient clinic operations and providing great service to both doctors and patients.
 
 
 ## Target Audience
