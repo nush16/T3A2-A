@@ -1,21 +1,21 @@
-# T3A2-A • Full Stack App (Part A)
+# T3A2-A • GP Online Doctor Appointment App
 
-### Application Name
-GP Online Doctor Appointment App
+---
 
 ### Team: Anushke and Bangkai
 
+---
 
- ## Description
-The objective of this project is to create an all-encompassing online doctor appointment application for a newly opened general practitioner Center in regional NSW.
+## Description
+The objective of this project is to create an all-encompassing online doctor appointment application for a newly opened general practitioner Center in regional NSW.The app is aimed at optimizing the procedure of scheduling and overseeing medical appointments. This application will serve both doctors and administrative staff, equipping them with a wide array of tools and functionalities designed to boost efficiency and enhance user experience.
 
+---
 
- aimed at optimizing the procedure of scheduling and overseeing medical appointments. This application will serve both patients, doctors and administrative staff, equipping them with a wide array of tools and functionalities designed to boost efficiency and enhance user experience.
+## Purpose
+
+---
 
 ## Functionality / Features
-
-
-
 
 ### Doctor User:
 
@@ -37,21 +37,34 @@ The objective of this project is to create an all-encompassing online doctor app
 
 - Administrators will receive notifications about important activities in the system, such as new appointments, cancellations, rescheduling, etc
 
+---
 
-### Patient User:
+## Target Audience
 
-- Patient will be able to register, create a profile, and manage their accounts. 
+---
 
-- Patients can view profiles of different doctors, which include details about their qualifications, specialties, and availability.
+## User Stories
 
-- Patients will be able to book, reschedule or cancel appointments 
+---
 
-- Patients can access their past medical history and any prescribed medications.
+## Tech Stack / Application Achitecture Diagram
 
-- Patients will receive automatic notifications and reminders about upcoming appointments
-## Nice to haves:
+---
 
-We're also considering that beyond developing the online appointment app for a specific GP centre, we could expand it into a location-based GP clinic search application including extra functionalities such as geolocation services, customized search filters and appointment booking with multiple clinics.
+## Wireframes
 
+---
 
-- 
+## Dataflow Diagram
+
+---
+
+## Dataflow Diagram
+
+---
+
+## Project Management
+
+We chose Jira for our workflow management system. A link can be found here 
+
+https://anushkek.atlassian.net/jira/software/projects/T3A2/boards/1/timeline
