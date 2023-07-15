@@ -12,7 +12,7 @@ The objective of this project is to create an online appointment scheduling appl
 
 ## Purpose
 
- The current application the GP clinic uses is quite outdated, so the goal of is to revolutionise appointment management and improve the overall healthcare experience. The application also seeks to streamline the scheduling and oversight of medical visits for both doctors and patients by leveraging technology and providing a user-friendly platform. The goal is to increase efficiency, lower administrative costs, and optimise clinic operations. This application will allow doctors to properly organise their schedules, retrieve patient information, and provide personalised care. Finally, the goal of this software is to provide a seamless, efficient, and patient-centered healthcare experience, revolutionising how appointments are scheduled and handled in the digital era.
+The current application used by the GP clinic is quite outdated and requires a revamp to revolutionize appointment management and enhance the overall healthcare experience. The goal of the new application is to streamline the scheduling and oversight of medical visits for doctors, leveraging technology to provide a user-friendly platform. This includes the efficient management of appointments, easy access to patient appointment information, and convenient retrieval of patient contact details and past appointments. By achieving these goals, the application aims to increase efficiency, reduce administrative costs, and optimize clinic operations. 
 
 ## Functionality / Features
 
@@ -22,7 +22,7 @@ The objective of this project is to create an online appointment scheduling appl
 
 - All users will have secure access to patient medical records. This feature especially allows doctors to review relevant medical history, past  diagnoses, and treatment plans, providing them with valuable insights into the patient's healthcare journey. Access to comprehensive and up-to-date medical records enhances the accuracy of diagnoses and treatment decisions, ultimately improving patient care and outcomes.
 
--The application will provide a real-time status visibility of appointments for efficient appointment management. The status of appointments will be categorized as "on the way," "waiting," "with doctor," or "completed," allowing for easy tracking and monitoring
+- The application will provide a real-time status visibility of appointments for efficient appointment management. The status of appointments will be categorized as "on the way," "waiting," "with doctor," or "completed," allowing for easy tracking and monitoring
 
 ## Profiles / User Stories
 
