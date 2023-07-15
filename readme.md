@@ -1,4 +1,4 @@
-# T3A2-A • GP Online Doctor Appointment App
+# T3A2-A • GP Online Appointment App
 
 
 
@@ -95,27 +95,27 @@ The React front-end interacts with the Node Express back-end via HTTP requests a
 
 ## Dataflow Diagram
 
-Within the doctor appointment app, the data flow diagram showcases how data flows from patients to doctors and clinical administrative staff, including the creation and management of user profiles, appointment scheduling, and access to medical records. 
+The Data Flow Diagram depicts the flow of data and interactions within a system for managing medical appointments and patient and user information. The graphic depicts several components and their interconnections, allowing for a visual picture of how data flows through the systems.
 
+![Data Flow Diagram User](doc/DFD_User.png)
 
-![Data Flow Diagram Doctor](doc/DFD_User.png)
+#### *Signup Business*
+The diagram includes a signup component that allows a user to create an account for there clinic. This component collects details such as name, email, business name and password and stores them securely in the system. The data related to user signup flows into this component.
 
-This Data Flow Diagram depicts the flow of data and interactions within a system for managing medical appointments and patient information . The graphic depicts several components and their interconnections, allowing for a visual picture of how data flows through the system.
-
-#### *Signup*
-The diagram includes a signup component that allows new users to create an account. This component collects user details such as name, email, and password and stores them securely in the system. The data related to user signup flows into this component.
+#### *Change Password*
+If a user has forgotten there password, they can change there password by entering there user details. They can also change there password when the logged on. Both components interacts with the user database
 
 #### *Login Process*
-The diagram illustrates the login component that verifies user credentials and grants access to authorized users. This component interacts with the user account database to validate login credentials and allow users to log into the system.
+The diagram illustrates the login component that verifies user credentials and grants access to authorized users. This component interacts with the user database to validate login credentials and allow users to log into the system.
 
-#### *Doctors Profile*
-The diagram includes a component for managing doctors' profiles. This component enables the creation, updating, and storage of doctors' information such as qualifications, areas of expertise, and contact details. The data related to doctors' profiles flows into and out of this component.
+#### *User Profile*
+The diagram includes a component for managing user profiles. This component enables the creation, updating, deletion and storage of user information such as contact name and contact details. The data related to user profiles flows into and out of this component.
 
 #### *Appointments*
-The data flow diagram depicts the flow of data associated with appointments. This provides elements for creating, changing, and cancelling appointments. Data flows between these components and other system components, such as doctor profiles and patient information.
+The data flow diagram depicts the flow of data associated with appointments. This provides elements for creating, updating, and cancelling appointments. Data flows between these components and other system components, such as user profiles and patient information.
 
 #### *Patients' Information*
-The diagram depicts the flow of data connected to patient information. This contains components for storing and accessing patient records, medical histories, and other relevant data. The system communicates with this component to retrieve and update patient information as needed.
+The diagram depicts the flow of data connected to patient information. This contains components for storing and accessing patient records, medical histories, and other relevant data. The system communicates with this component to retrieve and update patient information as needed. Patient details can also be deleted. 
 
 ## Project Management
 
