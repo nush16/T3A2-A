@@ -8,7 +8,7 @@
 
 ## Description
 
-The objective of this project is to create an online doctor appointment application for a general practitioner center in regional NSW. The app will cater to the needs of both doctors and administrative staff, boosting efficiency and enhancing the user experience. Doctors can manage schedules, access patient information, and improve patient care. Administrative staff can efficiently manage appointments and clinic operations. The application will prioritize data security and privacy. By creating this comprehensive app, the clinic aims to bring convenience, efficiency, and satisfaction to healthcare providers and patients, embracing technology for optimized healthcare delivery.
+The objective of this project is to create an online doctor appointment application for a general practitioner center in regional NSW. The app will cater to the need for  of both doctors and administrative staff of the general practitioner center, boosting efficiency and enhancing the user experience. Doctors can manage schedules, access patient information, and improve patient care. Administrative staff can efficiently manage appointments and clinic operations. The application will prioritize data security and privacy. By creating this comprehensive app, the clinic aims to bring convenience, efficiency, and satisfaction to healthcare providers and patients, embracing technology for optimized healthcare delivery.
 
 ## Purpose
 
