@@ -8,7 +8,7 @@
 
 ## Description
 
-The objective of this project is to create an online doctor appointment application for a general practitioner center in regional NSW. The app will cater to the need for  of both doctors and administrative staff of the general practitioner center, boosting efficiency and enhancing the user experience. Doctors can manage schedules, access patient information, and improve patient care. Administrative staff can efficiently manage appointments and clinic operations. The application will prioritize data security and privacy. By creating this comprehensive app, the clinic aims to bring convenience, efficiency, and satisfaction to healthcare providers and patients, embracing technology for optimized healthcare delivery.
+The objective of this project is to create an online appointment scheduling application specifically designed for clinic management at a general practitioner center in regional NSW. The app will cater to the needs of doctors and administrative staff, focusing on streamlining appointment scheduling and management processes. With this application, doctors will have the ability to efficiently manage their schedules and access appointment information, enabling them to optimize their time and improve clinic operations. Administrative staff will be empowered to handle appointment bookings, cancellations, and rescheduling effectively, ensuring smooth clinic operations. The application will prioritize data security and privacy to safeguard patient information. By developing this specialized app, the clinic aims to bring convenience, efficiency, and satisfaction to streamline appointment scheduling processes for the staff.
 
 ## Purpose
 
@@ -16,22 +16,13 @@ The objective of this project is to create an online doctor appointment applicat
 
 ## Functionality / Features
 
-### *Doctor User*
+- The application will allow users to maintain their profiles where they can enter there contact details. Admins will also be able to add/create new users. 
 
-- The application will allow doctors to create and maintain their professional profiles. They can input their relevant information, including qualifications, areas of expertise, and contact details. 
+-  Users can view the daily schedule, see upcoming appointments, create, update and delete appointments and be notified of any changes made to appointments. The application will also provide doctors with a clear and organized view of their schedule, allowing them to easily access information about their upcoming appointments. This functionality ensures that doctors are informed and can properly manage their time, lowering the likelihood of scheduling conflicts or missed appointments. 
 
--  Doctors can view their schedule, see upcoming appointments, and be notified of any changes made by patients: The application will provide doctors with a clear and organized view of their schedule, allowing them to easily access information about their upcoming appointments. They will be notified in real-time of any changes made by patients, such as appointment bookings, cancellations, or rescheduling. This functionality ensures that doctors are informed and can properly manage their time, lowering the likelihood of scheduling conflicts or missed appointments.
+- All users will have secure access to patient medical records. This feature especially allows doctors to review relevant medical history, past  diagnoses, and treatment plans, providing them with valuable insights into the patient's healthcare journey. Access to comprehensive and up-to-date medical records enhances the accuracy of diagnoses and treatment decisions, ultimately improving patient care and outcomes.
 
-- Doctors will have secure access to a patient's medical records. This feature allows doctors to review relevant medical history, diagnoses, and treatment plans, providing them with valuable insights into the patient's healthcare journey. Access to comprehensive and up-to-date medical records enhances the accuracy of diagnoses and treatment decisions, ultimately improving patient care and outcomes.
-
-### *Clinical Administrative Staff*
-
-- Clinical Administrators can doctor profiles, including creation, deletion, or modifications. They can create new profiles, update existing ones, and handle any necessary modifications. This feature ensures that the system's user data remains accurate, up-to-date, and aligned with the clinic's requirements.
-
-- Clinical Administrators may manage all appointments, assist with scheduling, and handle cancellations or rescheduling: The programme allows administrators to manage all appointments within the system. They can see the whole appointment schedule, help with new appointment scheduling, and handle any cancellations or rescheduling requests from patients or doctors. This feature simplifies the appointment management process, allowing administrators to optimise resource allocation and maintain a smooth flow of patients through the clinic.
-
-- Clinical Administrators will receive notifications about new appointment bookings, cancellations, rescheduling requests, and other important events. By getting these notifications, administrators may keep informed and take appropriate action, guaranteeing efficient clinic operations and providing great service to both doctors and patients.
-
+-The application will provide a real-time status visibility of appointments for efficient appointment management. The status of appointments will be categorized as "on the way," "waiting," "with doctor," or "completed," allowing for easy tracking and monitoring
 
 ## Profiles / User Stories
 
@@ -106,10 +97,13 @@ The React front-end interacts with the Node Express back-end via HTTP requests a
 
 Within the doctor appointment app, the data flow diagram showcases how data flows from patients to doctors and clinical administrative staff, including the creation and management of user profiles, appointment scheduling, and access to medical records. 
 
-### *Doctors*
-![Data Flow Diagram Doctor](doc/DFD_Doctor.png)
 
-This Data Flow Diagram depicts the flow of data and interactions within a system for managing medical appointments and patient information for a Doctor. The graphic depicts several components and their interconnections, allowing for a visual picture of how data flows through the system.
+![Data Flow Diagram Doctor](doc/DFD_User.png)
+
+This Data Flow Diagram depicts the flow of data and interactions within a system for managing medical appointments and patient information . The graphic depicts several components and their interconnections, allowing for a visual picture of how data flows through the system.
+
+#### *Signup*
+The diagram includes a signup component that allows new users to create an account. This component collects user details such as name, email, and password and stores them securely in the system. The data related to user signup flows into this component.
 
 #### *Login Process*
 The diagram illustrates the login component that verifies user credentials and grants access to authorized users. This component interacts with the user account database to validate login credentials and allow users to log into the system.
@@ -122,27 +116,6 @@ The data flow diagram depicts the flow of data associated with appointments. Thi
 
 #### *Patients' Information*
 The diagram depicts the flow of data connected to patient information. This contains components for storing and accessing patient records, medical histories, and other relevant data. The system communicates with this component to retrieve and update patient information as needed.
-
-### Clinical Administrator
-![Data Flow Diagram ADMIN](doc/DFD_Clinical.png)
-
-This Data Flow Diagram depicts the flow of data and interactions within a system for managing medical appointments and patient information for a clinical Administrator. The graphic depicts several components and their interconnections, allowing for a visual picture of how data flows through the system.
-
-#### *Signup*
-The diagram includes a signup component that allows new users to create an account. This component collects user details such as name, email, and password and stores them securely in the system. The data related to user signup flows into this component.
-
-#### *Login Process*
-The diagram illustrates the login component that verifies user credentials and grants access to authorized users. This component interacts with the user account database to validate login credentials and allow users to log into the system.
-
-#### *Doctors Profile*
-The diagram includes a component for managing doctors' profiles. This component enables the creation, updating, deletion and storage of doctors' information such as qualifications, areas of expertise, and contact details. The data related to doctors' profiles flows into and out of this component.
-
-#### *Appointments*
-The data flow diagram depicts the flow of data associated with appointments. This provides elements for creating, changing, and cancelling appointments. Data flows between these components and other system components, such as doctor profiles and patient information.
-
-#### *Patients' Information*
-The diagram depicts the flow of data connected to patient information. This contains components for storing and accessing patient records, medical histories, and other relevant data. The system communicates with this component to retrieve and update patient information as needed.
-
 
 ## Project Management
 
