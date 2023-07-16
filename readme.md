@@ -1,10 +1,6 @@
-# T3A2-A • GP Online Appointment App
-
-
+# T3A2-A • GP Online Appointment Web Application
 
 ### Anushke Karunaratna and Bangkai Yu
-
-
 
 ## Description
 
@@ -12,17 +8,21 @@ The objective of this project is to create an online appointment scheduling appl
 
 ## Purpose
 
-The current application used by the GP clinic is quite outdated and requires a revamp to revolutionize appointment management and enhance the overall healthcare experience. The goal of the new application is to streamline the scheduling and oversight of medical visits for doctors, leveraging technology to provide a user-friendly platform. This includes the efficient management of appointments, easy access to patient appointment information, and convenient retrieval of patient contact details and past appointments. By achieving these goals, the application aims to increase efficiency, reduce administrative costs, and optimize clinic operations. 
+The current web application used by the GP clinic is quite outdated and requires a revamp to revolutionize appointment management and enhance the overall healthcare experience. The goal of the new application is to streamline the scheduling and oversight of medical visits for doctors, leveraging technology to provide a user-friendly platform. This includes the efficient management of appointments, easy access to patient appointment information, and convenient retrieval of patient contact details and past appointments. By achieving these goals, the application aims to increase efficiency, reduce administrative costs, and optimize clinic operations. 
+
+## Target Audience 
+
+The target audience for the web application is doctors (GP's) and clinical administrators working in clinics. Doctors can rely on the app to efficiently manage their appointment schedules, access patient information, and streamline their workflow. Clinical administrators, on the other hand, utilize the app to handle appointment bookings and manage patient flow. By targeting this audience, the website aims to enhance efficiency, improve coordination, and optimize the appointment management process in healthcare settings.
 
 ## Functionality / Features
 
-- The application will allow users to maintain their profiles where they can enter there contact details. Admins will also be able to add/create new users. 
+- The web application will allow users to maintain their profiles where they can enter there contact details. Admins will also be able to add/create new users. 
 
 -  Users can view the daily schedule, see upcoming appointments, create, update and delete appointments and be notified of any changes made to appointments. The application will also provide doctors with a clear and organized view of their schedule, allowing them to easily access information about their upcoming appointments. This functionality ensures that doctors are informed and can properly manage their time, lowering the likelihood of scheduling conflicts or missed appointments. 
 
-- All users will have secure access to patient medical records. This feature especially allows doctors to review relevant medical history, past  diagnoses, and treatment plans, providing them with valuable insights into the patient's healthcare journey. Access to comprehensive and up-to-date medical records enhances the accuracy of diagnoses and treatment decisions, ultimately improving patient care and outcomes.
+- The web application ensures that all users, including doctors, have secure access to patient appointment records. This feature is particularly valuable for doctors as it allows them to review previous appointments and gain valuable insights into the patient's healthcare journey. This feature enhances the continuity of care and supports informed decision-making during subsequent appointments
 
-- The application will provide a real-time status visibility of appointments for efficient appointment management. The status of appointments will be categorized as "on the way," "waiting," "with doctor," or "completed," allowing for easy tracking and monitoring
+- The web application will provide a real-time status visibility of appointments for efficient appointment management. The status of appointments will be categorized as "on the way," "waiting," "with doctor," or "completed," allowing for easy tracking and monitoring
 
 ## Profiles / User Stories
 
@@ -100,19 +100,19 @@ The Data Flow Diagram depicts the flow of data and interactions within a system 
 ![Data Flow Diagram User](doc/DFD_User.png)
 
 #### *Signup Business*
-The diagram includes a signup component that allows a user to create an account for there clinic. This component collects details such as name, email, business name and password and stores them securely in the system. The data related to user signup flows into this component.
+The diagram includes a signup component that allows a user to create an account for there clinic. This component also collects details such as name, email, business name and password and stores them securely in the system. The data related to user signup flows into this component.
 
 #### *Change Password*
-If a user has forgotten there password, they can change there password by entering there user details. They can also change there password when the logged on. Both components interacts with the user database
+If a user has forgotten there password, they can change there password by entering there user details. They can also change there password when they are logged on. Both components interacts with the user database
 
 #### *Login Process*
 The diagram illustrates the login component that verifies user credentials and grants access to authorized users. This component interacts with the user database to validate login credentials and allow users to log into the system.
 
 #### *User Profile*
-The diagram includes a component for managing user profiles. This component enables the creation, updating, deletion and storage of user information such as contact name and contact details. The data related to user profiles flows into and out of this component.
+The diagram includes a component for managing user profiles. This component enables the creation, updating, deletion and storage of user information such as contact name and contact details. The data related to user profiles flows into and out of this component. Admins will also have special privileges to create new user profiles. 
 
 #### *Appointments*
-The data flow diagram depicts the flow of data associated with appointments. This provides elements for creating, updating, and cancelling appointments. Data flows between these components and other system components, such as user profiles and patient information.
+The data flow diagram depicts the flow of data associated with appointments. This provides elements for viewing, creating, updating, and cancelling appointments. Data flows between these components and other system components, such as user profiles and patient information. 
 
 #### *Patients' Information*
 The diagram depicts the flow of data connected to patient information. This contains components for storing and accessing patient records, medical histories, and other relevant data. The system communicates with this component to retrieve and update patient information as needed. Patient details can also be deleted. 
