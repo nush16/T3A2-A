@@ -40,7 +40,7 @@ It is crucial for me to receive adequate customer support from the software vend
 ### *Dr. Kate Lam - User Stories*
 I rely on the software to be dependable and free from technical issues. I want the software to function reliably, without crashes, slowdowns, or frequent glitches that disrupt my workflow that cause delays in patient care. It is essential that the software performs consistently, allowing me to access patient records, input data, and retrieve information without interruptions or system failures. By having a reliable software system, I can focus on delivering quality care to my patients without unnecessary stress or hindrances.
 
-I need the software systems used in the clinic to be compatible and seamlessly integrate with each other. I want the electronic health record (EHR) system, scheduling software, and billing system to work together effectively, enabling me to access and synchronize patient information across different platforms. Compatibility issues can lead to data discrepancies, duplication of efforts, and errors in accessing patient records. By having compatible software systems, I can seamlessly navigate through different platforms, retrieve accurate patient information, and provide continuity of care without interruptions or challenges caused by incompatible systems.
+I need the software systems used in the clinic to be compatible and seamlessly integrate with each other. I want the  electronic health record (EHR) system, scheduling software, and billing system to work together effectively, enabling me to access and synchronize patient information across different platforms. Compatibility issues can lead to data discrepancies, duplication of efforts, and errors in accessing patient records. By having compatible software systems, I can seamlessly navigate through different platforms, retrieve accurate patient information, and provide continuity of care without interruptions or challenges caused by incompatible systems.
 
 ### *Dr. Rajesh Abeyan - Profile*
 ![Rajesh Persona](doc/User_stories/Rajesh.jpg)
@@ -49,7 +49,7 @@ I want the software to send me timely reminders about upcoming appointments, ens
 
 I require real-time information about my patients' status to optimize my workflow and provide timely care. I want the software to provide me with a clear and easily accessible overview of each patient's status, indicating whether they have checked-in, are currently waiting, or require attention. By having this visibility, I can efficiently prioritize my tasks, prepare for upcoming consultations, and address any urgent or time-sensitive cases promptly. This feature would enhance my ability to deliver efficient and patient-centered care, leading to better patient outcomes and satisfaction.
 
-I need easy access to patient information before their scheduled appointments to provide personalized and effective care. I want the software to allow me to review relevant medical records, including past diagnoses, treatment plans, medications, and any recent test results. This accessibility to comprehensive patient information would enable me to familiarize myself with their medical history, identify potential concerns or trends, and make informed decisions during the consultation. By having this feature available, I can offer more personalized and efficient care, building stronger doctor-patient relationships and ensuring better continuity of care.
+I need easy access to patient information before their scheduled appointments to provide personalized and effective care. I want the software to allow me to review previous appointments. This accessibility to  patient information would enable me to familiarize myself with their medical history, identify potential concerns or trends, and make informed decisions during the consultation. By having this feature available, I can offer more personalized and efficient care, building stronger doctor-patient relationships and ensuring better continuity of care.
 
 ### *Laura Simmons - Profile* 
 ![Laura Persona](doc/User_stories/Laura.jpg)
@@ -118,7 +118,33 @@ The data flow diagram depicts the flow of data associated with appointments. Thi
 The diagram depicts the flow of data connected to patient information. This contains components for storing and accessing patient records, medical histories, and other relevant data. The system communicates with this component to retrieve and update patient information as needed. Patient details can also be deleted. 
 
 ## Project Management
+We chose Jira for our workflow management system. A link can be found here - https://anushkek.atlassian.net/jira/software/projects/T3A2/boards/1/timeline  
 
-We chose Jira for our workflow management system. A link can be found here 
+These were steps we followed:
+* **Project Initiation**: Define the project's objectives, scope, and desired outcomes. Identify who were the key users, go over the rubric and establish different roles to complete the project. 
 
-https://anushkek.atlassian.net/jira/software/projects/T3A2/boards/1/timeline
+* **Requirement Gathering**: We then conduct thorough research and had a meeting with a doctor. We were able to identify their needs, pain points, and desired features for the appointment management web application.
+
+* **Project Planning**: We developed a  project plan that outlined the timeline. We would have a daily standup every morning and set goals to be met within the day. We also considered potential risks and develop contingency plans.
+
+* **Design and Development**: We created wireframes and designed data flow diagrams that reflect the desired user interface and user experience. 
+
+### *Sprints*
+
+* **Sprint 1** - Set up the project environment, including version control, development tools, and communication channels.
+
+* **Sprint 2** - Conduct stakeholder interviews and workshops to gather detailed requirements from doctors, clinical administrators, and other end-users.
+
+* **Sprint 3** - Document user stories, use cases, and functional requirements based on the gathered information.
+
+* **Sprint 4** - Create wireframes  for the website's user interface (UI).
+
+* **Sprint 5** - Create Data Flow Diagram and define tech stack/ architecture 
+  
+### *Timeline*
+![Timeline](doc/Jira_screenshots/Timeline.png)
+
+
+### *Timeline*
+
+Github repo can also be found here  - https://github.com/nush16/T3A2-A
