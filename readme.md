@@ -31,6 +31,7 @@ A set of user stories have been created to meet the specific requirements and fr
 ### *Dr. Tom Brady - Profile*
 ![Tom Persona](doc/User_stories/Tom.jpg)
 ### *Dr. Tom Brady - User Stories*
+
 I require a software system that is intuitive and user-friendly. I want the software to have a well-designed user interface, streamlined navigation, and intuitive features that allow me to easily access patient information, input data, and perform necessary tasks. The current software's lack of intuitiveness and steep learning curve impede my workflow and productivity, resulting in time-consuming tasks and hindrances to providing quality patient care. By having a software system with an intuitive user interface and user-friendly features, I will be able to navigate through the software seamlessly, complete tasks efficiently, and focus more on delivering excellent patient care.
 
 It is crucial for me to receive adequate customer support from the software vendor. I need the assurance that any issues or concerns I encounter will be promptly addressed. Inadequate customer support or a lack of responsiveness amplifies my frustrations and hinders my ability to efficiently resolve problems. By having access to responsive customer support, I can quickly seek assistance when needed, receive timely resolutions to software-related issues, and feel supported in utilizing the software effectively. This would enhance my productivity, reduce downtime, and ensure that software-related frustrations do not hinder my ability to provide quality patient care.
@@ -38,9 +39,10 @@ It is crucial for me to receive adequate customer support from the software vend
 ### *Dr. Kate Lam - Profile*
 ![Kate Persona](doc/User_stories/Kate.jpg)
 ### *Dr. Kate Lam - User Stories*
+
 I rely on the software to be dependable and free from technical issues. I want the software to function reliably, without crashes, slowdowns, or frequent glitches that disrupt my workflow that cause delays in patient care. It is essential that the software performs consistently, allowing me to access patient records, input data, and retrieve information without interruptions or system failures. By having a reliable software system, I can focus on delivering quality care to my patients without unnecessary stress or hindrances.
 
-I need the software systems used in the clinic to be compatible and seamlessly integrate with each other. I want the  electronic health record (EHR) system, scheduling software, and billing system to work together effectively, enabling me to access and synchronize patient information across different platforms. Compatibility issues can lead to data discrepancies, duplication of efforts, and errors in accessing patient records. By having compatible software systems, I can seamlessly navigate through different platforms, retrieve accurate patient information, and provide continuity of care without interruptions or challenges caused by incompatible systems.
+I need the software systems used in the clinic to be compatible and seamlessly integrate with each other. I want the scheduling software and all other systems to work together effectively, enabling me to access and synchronize patient information across different platforms. Compatibility issues can lead to data discrepancies, duplication of efforts, and errors in accessing patient records. By having compatible software systems, I can seamlessly navigate through different platforms, retrieve accurate patient information, and provide continuity of care without interruptions or challenges caused by incompatible systems.
 
 ### *Dr. Rajesh Abeyan - Profile*
 ![Rajesh Persona](doc/User_stories/Rajesh.jpg)
@@ -71,6 +73,7 @@ The React front-end interacts with the Node Express back-end via HTTP requests a
 
 ### *Front-End*
 * **React**: The application's front-end is created with React, which enables for the building of interactive and dynamic user interfaces
+
 * **Mui Core 5**: To offer a visually appealing and consistent user experience, Material-UI components will be integrated into the React application
   
 ### *Back-End*
@@ -82,6 +85,7 @@ The React front-end interacts with the Node Express back-end via HTTP requests a
   
 ### *Cloud Hosting and Deployment*
 * **Netlify**: Netlify hosts and deploys the front-end React application. It provides a straightforward framework for continuous integration and deployment (CI/CD) activities, ensuring that the application is automatically created and delivered to a scalable hosting environment
+
 * **Google Cloud Platform (GCP)**: GCP services can be used to improve the functionality of the application. Google Cloud Storage, for example, can be used for file storage, Cloud Functions for serverless computing, or Firestore for extra database needs.
 
 ### *Additional Services and Integrations*
@@ -133,7 +137,7 @@ The diagram includes a component for managing user profiles. This component enab
 The data flow diagram depicts the flow of data associated with appointments. This provides elements for viewing, creating, updating, and cancelling appointments. Data flows between these components and other system components, such as user profiles and patient information. 
 
 #### *Patients' Information*
-The diagram depicts the flow of data connected to patient information. This contains components for storing and accessing patient records, medical histories, and other relevant data. The system communicates with this component to retrieve and update patient information as needed. Patient details can also be deleted. 
+The diagram depicts the flow of data connected to patient information. This contains components for storing and accessing patient records, and other relevant data. The system communicates with this component to retrieve and update patient information as needed. Patient details can also be deleted. 
 
 ## Project Management
 We chose Jira for our workflow management system. A link can be found here - https://anushkek.atlassian.net/jira/software/projects/T3A2/boards/1/timeline  
