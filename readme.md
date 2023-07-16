@@ -146,9 +146,12 @@ These were steps we followed:
 
 Specific meeting notes can be found in the timeline
 
+Timeline link can be found here  - https://jira.external-share.com/issue/81826/anushke_karunaratna_@_timeline_share
+
 ### *Jira Board*
 
 ![Jira Board](doc/Jira_screenshots/T3A2-board-Agile-board-Jira.png)
 
+Jira board can be found here  - https://jira.external-share.com/issue/81825/anushke_karunaratna_@_board_share
 
 Github repo can also be found here  - https://github.com/nush16/T3A2-A
