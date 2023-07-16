@@ -90,7 +90,25 @@ The React front-end interacts with the Node Express back-end via HTTP requests a
 
 
 ## Wireframes
+![Login Page](doc/Wireframes/01_Login.png)
 
+![Signup Page](doc/Wireframes/02_Signup.png)
+
+![Register and Login Flow](doc/Wireframes/03_RegisterLoginFlow.png)
+
+![Appointment Page](doc/Wireframes/04_Appointment.png)
+
+![Appointment Page](doc/Wireframes/05_Appointment_Tablet.png)
+
+![Appointment Page flow](doc/Wireframes/06_Appointment_Flow.png)
+
+![Patient Pages flow](doc/Wireframes/07_Patient_Flow.png)
+
+![Staff Pages flow](doc/Wireframes/08_Staff_flow.png)
+
+![Profile Page](doc/Wireframes/09_profile.png)
+
+![Profile Page 2](doc/Wireframes/10_profile_tablet.png)
 
 
 ## Dataflow Diagram
